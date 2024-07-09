@@ -1,27 +1,126 @@
 <!DOCTYPE html>
 <html>
+    
     <html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Probabilidad y Estadística</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" class="style.js">
     </head>
-
 
   </header>
     <body>
         
-       <header> <h1>TEMARIO</h1> </header>
-
-        <main>
-
-     <section>
-        <ul>
+        
+       <header> <h1>TEMARIO</h1> 
+   
+        <nav>
+          <ul>
+            <li><a href="#estadistica-descriptiva">Estadística Descriptiva</a></li>
+            <li><a href="#fundamentos-probabilidad">Fundamentos de la Teoría de Probabilidad</a></li>
+            <li><a href="#variables-aleatorias">Variables Aleatorias</a></li>
+            <li><a href="#distribuciones-probabilidad">Distribuciones de Probabilidad</a></li>
+            <li><a href="#regresion-lineal">Regresión Lineal</a></li>
+            <li><a href="#github">Github</a></li>
            
+          </ul>
+        </nav>
+    </header>
+    </head>
+    <body>
+
+        <!DOCTYPE html>
+<html>
+<head>
+  <title>Botón circular</title>
+  <style>
+    .top-right-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #2980b9;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .top-right-button img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .top-right-button:hover {
+      background-color: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <button class="top-right-button" onclick="window.location.href='https://app.dataquest.io/profile/22011797';">
+    <img src="https://example.com/imagenes/github.png" alt="Ir al perfil de Dataquest">
+  </button>
+
+  <script>
+    // No se necesita JavaScript para este código
+  </script>
+</body>
+</html>
+        
+        <!-- HTML -->
+<button id="back-to-top">
+    <img src="imagenes/arriba.png" alt="Volver al inicio">
+  </button>
+  
+  <!-- CSS -->
+  <style>
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #back-to-top img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #back-to-top:hover {
+    background-color: #ffffff;
+  }
+  </style>
+  
+  <!-- JavaScript -->
+  <script>
+  document.getElementById("back-to-top").addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  </script>
+        <main>
+        
+
+           
+
+            <section id="estadistica-descriptiva">
+        <ul>
+            
         <h2>Tema 1</h2>
         <h2>Estadística descriptiva.</h2>
-        
+        <div class="box"><img src="imagenes/tem1.png" width="190" height="auto"></div>
+
             <li><h3>1.1 Conceptos básicos de estadística:</h3></li>
             <p>Estadística: Ciencia que se encarga de recopilar, organizar, analizar e interpretar datos.</p>
             <p>Teoría de decisión: Marco para la toma de decisiones óptimas en situaciones de incertidumbre.</p>
@@ -60,9 +159,14 @@
             <p>Procedimientos para seleccionar muestras representativas de una población.</p>
         </ul>
         <img src="imagenes/tem1.png" width="30%" height="auto">
+        
+        <div class="box1"><a href="https://github.com/imac22/Frecuencias.git">Ejercicio</a></div>
+        <a href="Tema1-3.html">Ir a Página de Ejemplo</a>
+        
 </section>
 
-<section>
+
+    <section id="fundamentos-probabilidad">
         <ul>
         <h2>Tema 2</h2>
         <h2> Fundamentos de la Teoría de Probabilidad.</h2>
@@ -162,10 +266,10 @@
 </section>
 </ul>
 
-<section>
+<section id = "variables-aleatorias">
     
     <ul>
-
+      
 <h2>Tema 3</h2>
 <h2> Variables Aleatorias.</h2>
 
@@ -202,7 +306,7 @@
     <li><h3>3.1.4 Función acumulada.</h3></li>
     <p>La función de distribución acumulada o función de probabilidad acumulada de una variable aleatoria discreta es la probabilidad de que la variable aleatoria tome un valor menor o igual a un valor dado.</p>
 
-    <a href="https://youtu.be/jKQkHRlicrE?feature=shared">Variables aleatorias discretas</a>
+    
 
     <li><h3>3.2 Variables aleatorias Continuas.</h3></li>
     <p>Las variables aleatorias continuas son aquellas que pueden tomar cualquier valor dentro de un intervalo, a diferencia de las variables aleatorias discretas que sólo pueden tomar valores específicos.</p>
@@ -222,10 +326,16 @@
    
     <li><h3>3.2.5 Cálculos de probabilidad.</h3></li>
     <p>Cálculos de probabilidad: Involucra el uso de la función de densidad de probabilidad o la función de distribución acumulada para calcular probabilidades de que la variable aleatoria continua tome valores en ciertos intervalos.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jKQkHRlicrE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <p></p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xEzxAVd0m_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+     
+      
 </section>
 </ul>
 
-<section>
+<section id="distribuciones-probabilidad">
     <ul>
     
 <h2>Tema 4</h2>
@@ -259,11 +369,13 @@
 
     <li><h3>4.8 Distribución F:</h3></li>
     <p>La distribución F, también conocida como distribución de Fisher-Snedecor, es una distribución de probabilidad continua que se utiliza para analizar la varianza de dos poblaciones normales e independientes. Se emplea en pruebas de hipótesis que involucran cocientes de varianzas.</p>
-</section>
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ntNaL7MF5eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ul>
+</section>
 
+<section id="regresion-lineal">
 
-<section>
     <ul>
 
 <h2>Tema 5</h2>
@@ -305,6 +417,53 @@
 <h3>5.1.5 Distribución normal bidimensional</h3>
 <p>La distribución normal bidimensional describe la distribución conjunta de dos variables aleatorias que siguen una distribución normal. Esta distribución permite estudiar la relación entre las dos variables y calcular probabilidades conjuntas.</p>
 </section>
+
+<section>
+<selection id="github">
+    <ul>
+       <h2>Github</h2>
+       <h3>Tema 1</h3>
+       <!DOCTYPE html>
+<html>
+<head>
+  <title>Ir al repositorio de GitHub</title>
+  <style>
+    .custom-button {
+      background-color: #f462ab; /* Color de fondo del botón */
+      border: none;
+      color: white; /* Color del texto del botón */
+      padding: 15px 32px; /* Tamaño del botón */
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <p>Tablas de frecuencias</p>
+  <button class="custom-button" onclick="window.location.href='https://github.com/imac22/Frecuencias';">Ir al repositorio</button>
+
+  <script>
+    // Cambiar el color del botón
+    const customButton = document.querySelector('.custom-button');
+    customButton.style.backgroundColor = '#f462ab'; // Nuevo color de fondo
+    
+    // Cambiar el tamaño del botón
+    customButton.style.padding = '20px 40px'; // Nuevo tamaño del botón
+  </script>
+</body>
+</html>
+       <h3>Tema 2</h3>
+       <h3>Tema 3</h3>
+       <h3>Tema 4</h3>
+       <h3>Tema 5</h3>
+       
+    </ul>
+</selection>
 
 </main>
 <footer>

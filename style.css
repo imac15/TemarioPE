@@ -91,4 +91,19 @@
     padding: 10px;
   }
 
+  .box {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+  }
   
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+}
+  
+
+
