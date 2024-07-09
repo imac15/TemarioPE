@@ -23,6 +23,7 @@
             <li><a href="#distribuciones-probabilidad">Distribuciones de Probabilidad</a></li>
             <li><a href="#regresion-lineal">Regresión Lineal</a></li>
             <li><a href="#github">Github</a></li>
+            <li><a href="#certificado">Certificado</a></li>
            
           </ul>
         </nav>
@@ -400,15 +401,72 @@
     <p>La distribución binomial es una distribución de probabilidad discreta que modela el número de éxitos en una serie de n ensayos independientes, donde cada ensayo tiene solo dos posibles resultados, generalmente éxito o fracaso, y la probabilidad de éxito es constante.</p>
     <p>Función de probabilidad:</p>
     <ul>
-        f(k;n,p)=(n) 
+        <bodyb>
+            <div class="formulab">
+              P(X = x) = C(n, x) * p^x * (1-p)^(n-x)
+            </div>
+            <div class="variablesb">
+              <div class="variableb">
+                <span>n</span> = Número de ensayos
+              </div>
+              <div class="variableb">
+                <span>x</span> = Número de éxitos
+              </div>
+              <div class="variableb">
+                <span>p</span> = Probabilidad de éxito en cada ensayo
+              </div>
+              <div class="variableb">
+                <span>C(n, x)</span> = Coeficiente binomial
+              </div>
+            </div>
+          </bodyb>
     </ul>
 
     <li><h3>4.3 Distribución hipergeométrica:</h3></li>
     <p>La distribución hipergeométrica es una distribución de probabilidad discreta que describe el número de éxitos en una muestra aleatoria sin reemplazo de una población finita. Se utiliza cuando la población tiene dos categorías y se extrae una muestra sin reemplazo.</p>
-
+    <ul><bodyg>
+        <div class="formulag">
+          P(X = x) = (C(M, x) * C(N-M, n-x)) / C(N, n)
+        </div>
+        <div class="variablesg">
+          <div class="variableg">
+            <span>N</span> = Tamaño de la población
+          </div>
+          <div class="variableg">
+            <span>M</span> = Número de elementos de éxito en la población
+          </div>
+          <div class="variableg">
+            <span>n</span> = Tamaño de la muestra
+          </div>
+          <div class="variableg">
+            <span>x</span> = Número de éxitos en la muestra
+          </div>
+          <div class="variableg">
+            <span>C(a, b)</span> = Coeficiente binomial
+          </div>
+        </div>
+      </bodyg></ul>
     <li><h3>4.4 Distribución de Poisson:</h3></li>
     <p>La distribución de Poisson es una distribución de probabilidad discreta que expresa la probabilidad de que ocurra un número determinado de eventos independientes en un intervalo de tiempo o espacio fijo, siempre que estos eventos ocurran con una velocidad o frecuencia media conocida.</p>
-
+    <ul><bodyi>
+        <div class="formulai">
+          P(X = x) = (e^(-λ) * λ^x) / x!
+        </div>
+        <div class="variablesi">
+          <div class="variablei">
+            <span>λ</span> = Tasa media de ocurrencia
+          </div>
+          <div class="variablei">
+            <span>x</span> = Número de eventos
+          </div>
+          <div class="variablei">
+            <span>e</span> = Constante de Euler (2.718281828459045)
+          </div>
+          <div class="variablei">
+            <span>!</span> = Factorial
+          </div>
+        </div>
+      </bodyi></ul>
     <li><h3>4.5 Distribución normal:</h3></li>
     <p>La distribución normal, también conocida como distribución gaussiana, es una distribución de probabilidad continua que se caracteriza por tener una forma de campana simétrica alrededor de la media. Es muy importante en estadística y probabilidad debido a sus numerosas aplicaciones.</p>
 
@@ -511,10 +569,90 @@
 
   </a>
        <h3>Tema 2</h3>
-    
+       <html>
+        <head>
+          <title>Ir al repositorio de GitHub</title>
+          <style>
+            .custom-button {
+              background-color: #f462ab; /* Color de fondo del botón */
+              border: none;
+              color: white; /* Color del texto del botón */
+              padding: 15px 32px; /* Tamaño del botón */
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              cursor: pointer;
+            }
+        
+          </style>
+        </head>
+        <body>
+          <p>Ejercicios del 9-17</p>
+          <button class="custom-button" onclick="window.location.href='https://github.com/imac22/ejPerm.git';">Ir al repositorio</button>
+        
+          <script>
+            // Cambiar el color del botón
+            const customButton = document.querySelector('.custom-button');
+            customButton.style.backgroundColor = '#f462ab'; // Nuevo color de fondo
+            
+            // Cambiar el tamaño del botón
+            customButton.style.padding = '20px 40px'; // Nuevo tamaño del botón
+          </script>
+        </body>
+        </html>
+        
        
     </ul>
 </selection>
+</section>
+
+
+<section>
+    <selection id="certificado">
+ <ul>
+<h2>Certificado</h2>
+           <h3>Linear Regression Modeling in Python</h3>
+           <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Ver certificado</title>
+      <style>
+        .custom-button {
+          background-color: #f462ab; /* Color de fondo del botón */
+          border: none;
+          color: white; /* Color del texto del botón */
+          padding: 15px 32px; /* Tamaño del botón */
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+    
+      </style>
+    </head>
+    <body>
+      <button class="custom-button" onclick="window.location.href='https://app.dataquest.io/view_cert/OAQS49TN8TBVH83X384K';">Ver certificado</button>
+    
+      <script>
+        // Cambiar el color del botón
+        const customButton = document.querySelector('.custom-button');
+        customButton.style.backgroundColor = '#f462ab'; // Nuevo color de fondo
+        
+        // Cambiar el tamaño del botón
+        customButton.style.padding = '20px 40px'; // Nuevo tamaño del botón
+      </script>
+    </body>
+    </html>
+    
+     
+           
+        </ul>
+    </selection>
+</section>
 
 </main>
 <footer>

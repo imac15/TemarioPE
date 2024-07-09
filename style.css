@@ -106,4 +106,74 @@
 }
   
 
+/*binomial*/
+body b {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.formulab {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.variablesb {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.variableb {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/*hipergeometrica*/
+body g{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.formulag {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.variablesg {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.variableg {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/*Poisson*/
+body i{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.formulai {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.variablesi {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.variablei {
+  display: inline-block;
+  margin: 0 10px;
+}
 
